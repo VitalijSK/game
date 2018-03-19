@@ -1,0 +1,68 @@
+
+h1{
+	text-align:center;
+}
+
+input, button{
+	padding: 10px;
+	cursor:pointer;
+}
+input{
+	width: 20px;
+	padding:2px;
+}
+.row{
+	width: 800px;
+    margin: 0 auto;
+	display: flex;
+}
+.block{
+    width: 43%;
+	padding:20px;
+    text-align: center;
+	border: 5px dashed #000;
+}
+.block button, .processing button , .today button , .finished button{
+	background-color:#fff;
+}
+.block button{
+	border: 5px dashed #000;
+	color:#000;
+}
+.today{
+	border: 5px dashed #ffb457;
+}
+.today button{
+	border: 5px dashed #ffb457;
+	color:#ffb457;
+}
+.processing{
+	border: 5px dashed #0bb118;
+}
+.processing button{
+	border: 5px dashed #0bb118;
+	color:#0bb118;
+}
+.finished{
+	border: 5px dashed #8c8c8c;
+}
+.finished button{
+	border: 5px dashed #8c8c8c;
+	color:#8c8c8c;
+}
+button{
+    border: none;
+    background-color: #ffb457;
+    padding: 10px 40px;
+    color: #fff;
+}
+input[type="number"]{
+	width: 50px;
+    margin-bottom: 15px;
+	padding:10px;
+}
+
+.list button{
+	padding: 5px;
+    margin-lefT: 9px;
+}
